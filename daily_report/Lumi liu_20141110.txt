@@ -1,5 +1,5 @@
-			HAPPY
-    Today is Momday and the weather is nice. It is the firth 
+			REPORT
+    Today is Momday and the weather is nice. It is the first 
 day to work for me.The company is Wistron where I am working.
     I am very glad when I sit my office table. Today I am 
 familiar with C language and some frequently used commands 
