@@ -1,6 +1,6 @@
-			TIME
-	Today is Wednesday and the weather is cloudy.
-	Today I find time is a cruel thing. Whoever you 
+			REPORT
+    Today is Wednesday and the weather is cloudy.
+    Today I find time is a cruel thing. Whoever you 
 are, time always goes on. It does not stay to wait for 
 somebody. You can not use anything to exchange it. Time 
 is also a fair thing. Although you have a lot of money 
