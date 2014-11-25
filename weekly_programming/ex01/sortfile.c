@@ -1,12 +1,12 @@
 /*=====================================
 Filename:
-	globalmem.c
+	sortfile.c
 
 Copyright (C) 2006 Wistron
 	All rights reserved.
 
 Description:
-	This is a simple Character Device Drives with globalmem.
+	This file is used to sort about file.
 
 Author/Created Date:
 	Lumi-liu, Nov19'14
