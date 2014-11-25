@@ -1,0 +1,8 @@
+		REPORT
+    Today is Tuesday and today is a rainy day. 
+    Today I am familiar with Character Device 
+Drivers and Miscdevice Drivers under Linux system. 
+I meet a lot of problems and I try to solve it. At 
+that time I search some of the relevant knowledge 
+to understand it on internet.it is very helpful to 
+solve problems for me.
