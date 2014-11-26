@@ -1,0 +1,8 @@
+			REPORT
+    Today is Wednesday and today is a sunny day. 
+    Today I learn a simple Character Device Drivers about Miscdevice. And I try to write the program code about it. 
+But there are a lot of mistakes and warning informations 
+when I execute 'make'. After that I try to search some of 
+the relevant knowledge with books and internet to solve it. 
+Although it is hard to understand, I will try my best to 
+do it.
