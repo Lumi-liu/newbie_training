@@ -1,0 +1,7 @@
+			REPORT
+    Today is Thursday and today is a sunny day. 
+    Today I learn Character Device Drivers and I am familiar 
+with linklist and structures of C language. At that time I 
+search some of the relevant knowledge. And I try to write 
+the program code about it. There is a little mistakes so that 
+I do not finish it. But I never give up. I will try complete it.
