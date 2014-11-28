@@ -1,0 +1,10 @@
+			REPORT
+    Today is Friday and it is a sunny day. 
+    Today I learn linklist and structures of C 
+language. And I try to write the program code 
+and debug it. But the answer is unsatisfactory 
+for me. There are many features need to be improved. 
+I will do it well. Today I am familiar with Device 
+Drivers and application. Let them communicate via 
+"ioctl". But I do not write the code. I will try to 
+write it next week.
