@@ -1,5 +1,5 @@
 			REPORT
-    Today is Momday and the it is a sunny day. But 
+    Today is Monday and the it is a sunny day. But 
 it is cold today.
     Today I am familiar with arduino and its development 
 environment. At that time I search some of the relevant 
