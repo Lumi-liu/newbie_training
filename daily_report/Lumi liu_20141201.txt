@@ -1,0 +1,10 @@
+			REPORT
+    Today is Momday and the it is a sunny day. But 
+it is cold today.
+    Today I am familiar with arduino and its development 
+environment. At that time I search some of the relevant 
+knowledge to understand and I try to do it by myself. 
+I write the program code so that it can be verified and 
+uploaded. The answer is OK. But I do not want to do it 
+like this. Because we are only responsible for calling 
+library function.
