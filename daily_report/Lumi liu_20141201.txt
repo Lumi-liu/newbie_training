@@ -1,6 +1,6 @@
 			REPORT
-    Today is Monday and the it is a sunny day. But 
-it is cold today.
+    Today is Monday and it is a sunny day. But it is 
+cold today.
     Today I am familiar with arduino and its development 
 environment. At that time I search some of the relevant 
 knowledge to understand and I try to do it by myself. 
