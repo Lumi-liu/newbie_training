@@ -1,0 +1,12 @@
+			REPORT
+    Today is Tuesday and  it is a sunny and cold day. 
+But it is no wind.
+    Today I do two experiments of yesterday. But the 
+difference is that today I connect diagram with looking 
+at the program code. And I try to modify code and 
+configure pin code. I search some of the relevant 
+knowledge to understand the meaning and the role them 
+play of the pull-up resistor, the pull-down resistor 
+and the current limiting resistor. I learn how to identify 
+the color ring resistance and understanding use of the library 
+function as well as millis().
