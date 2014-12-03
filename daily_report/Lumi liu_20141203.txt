@@ -1,0 +1,11 @@
+				REPORT
+    Today is Wednesday and  it is a cloudy and cold day.
+    Today I am familiar with ioctl() of the character device 
+driver. At that time I also try to solve the issues left last 
+week. There will be a warning message "sysfs: cannot create 
+duplicate filename '/devices/virtual/globalmem'", with using 
+the 'dmesg' command when I insert the module again after I 
+remove it. The equipment nodes have be existed under the '/dev' 
+directory. Finally the problem has been solved. I try to add a 
+line code in the program. And I exchange the position of them. 
+There is no warning messages.
