@@ -1,0 +1,9 @@
+					REPORT
+    Today is Thursday and  it is a cloudy and cold day.
+	Today I do some experiments about the Arduino. I connect 
+diagram with looking at the book. And I try to modify code 
+and configure pin code. I search some of the relevant knowledge 
+to understand the meaning of the library function. For example 
+"analogWrite(), map(), attachInterrupt()" and so on, I try to 
+understand the meaning and information transmited of the parameter 
+in the function.
