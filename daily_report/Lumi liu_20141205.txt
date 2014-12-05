@@ -1,0 +1,10 @@
+					REPORT
+    Today is Friday and  it is a sunny and cold day.
+	Today I do experiment with eight segment digital controled 
+by a IR Remote Controller. I try to add a few other functions 
+on this experiment. For example, a reset circuit, two light 
+emitting diodes with display, and the control buttons. I try to 
+compile program code and connect the circuit. Finally, the 
+program can run, but the result is that I do not want to achieve. 
+The control with the button is not ready now. One button control 
+can be OK, but two not. I will do it next week.
