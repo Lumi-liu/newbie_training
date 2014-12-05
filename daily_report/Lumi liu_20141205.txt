@@ -1,6 +1,6 @@
 					REPORT
     Today is Friday and  it is a sunny and cold day.
-	Today I do experiment with eight segment digital controled 
+    Today I do experiment with eight segment digital controled 
 by a IR Remote Controller. I try to add a few other functions 
 on this experiment. For example, a reset circuit, two light 
 emitting diodes with display, and the control buttons. I try to 
