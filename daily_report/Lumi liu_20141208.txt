@@ -1,0 +1,10 @@
+					REPORT
+    Today is Monday and  it is a sunny day.
+    Today I do experiment left last week. In addition to 
+button control function is not complete, others have been 
+solved. After I look at character device driver about ioctl() 
+and try to write the program. After that I execute 'make' and 
+compile the program. There are many warnings with 'no *** header 
+files' or 'some variable not defined in *** function. These 
+problems have been resolved by looking books. But sometimes the 
+device file can not be opened normally. I will do it tomorrow.
