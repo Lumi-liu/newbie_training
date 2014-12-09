@@ -1,0 +1,11 @@
+					REPORT
+    Today is Tuesday and  it is a sunny day.
+    Today I do experiment left last week. In addition to 
+button control function is not complete, others have been 
+solved. I try to use interrupt mode to solve the problem 
+about button control. But the digital interface is not 
+enough to use. I must try to turn the analog interface into 
+the digital interface. But there is a few issues about LED 
+light state if I do it like this. I will think carefully 
+about this problem. After that I try to solve the Character 
+Device Driver with ioctl(). The program can run.
