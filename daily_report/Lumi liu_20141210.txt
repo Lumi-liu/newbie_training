@@ -1,0 +1,10 @@
+			REPORT
+    Today is Wednesday and  it is a cloudy day.
+    Today I look at that how the analog port turnning 
+into digital port. At that time I also search relevant 
+information on the internet. After that I try to complete 
+the Character Device Driver with ioctl(). There is a little 
+mistake about it. It don't display buffer data. After I try 
+to do it according to the book named Linux Device Driver. 
+Why do not it display buffer data on screen? I will do it 
+tomorrow.
