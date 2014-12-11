@@ -1,0 +1,8 @@
+			REPORT
+    Today is Thursday and  it is a cloudy day.
+    Today I find some of the information about the Character 
+Device Driver in the books and on internet. I begin to make a 
+PPT file. When I do it I encounter some of problems. For example, 
+what do capable(CAP_SYS_ADMIN) function and the parameter inside 
+it mean? and when or where is it be used? At the same time it is 
+helpful for me to call what I learned some time ago.
