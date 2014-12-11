@@ -53,34 +53,35 @@ MODULE_AUTHOR("Lumi-liu");
 //#define MEMDEV_IOC_MAXNR 3
 
 
-#define SCULL_IOC_MAGIC 'k'
-#define SCULL_IOCRESET  _IO(SCULL_IOC_MAGIC, 0)
+#define GLOBALMEM_IOC_MAGIC 'k'
+#define GLOBALMEM_IOCRESET  _IO(GLOBALMEM_IOC_MAGIC, 0)
 
 
-#define SCULL_IOCSQUANTUM _IOW(SCULL_IOC_MAGIC, 1, int)
-#define SCULL_IOCSQSET _IOW(SCULL_IOC_MAGIC, 2, int)
+#define GLOBALMEM_IOCSQUANTUM _IOW(GLOBALMEM_IOC_MAGIC, 1, int)
+#define GLOBALMEM_IOCSQSET _IOW(GLOBALMEM_IOC_MAGIC, 2, int)
 
-#define SCULL_IOCTQUANTUM _IO(SCULL_IOC_MAGIC, 3)
-#define SCULL_IOCTQSET _IO(SCULL_IOC_MAGIC, 4)
+#define GLOBALMEM_IOCTQUANTUM _IO(GLOBALMEM_IOC_MAGIC, 3)
+#define GLOBALMEM_IOCTQSET _IO(GLOBALMEM_IOC_MAGIC, 4)
 
-#define SCULL_IOCGQUANTUM _IOR(SCULL_IOC_MAGIC, 5, int)
-#define SCULL_IOCGQSET _IOR(SCULL_IOC_MAGIC, 6, int)
+#define GLOBALMEM_IOCGQUANTUM _IOR(GLOBALMEM_IOC_MAGIC, 5, int)
+#define GLOBALMEM_IOCGQSET _IOR(GLOBALMEM_IOC_MAGIC, 6, int)
 
-#define SCULL_IOCQQUANTUM _IO(SCULL_IOC_MAGIC, 7)
-#define SCULL_IOCQQSET _IO(SCULL_IOC_MAGIC, 8)
+#define GLOBALMEM_IOCQQUANTUM _IO(GLOBALMEM_IOC_MAGIC, 7)
+#define GLOBALMEM_IOCQQSET _IO(GLOBALMEM_IOC_MAGIC, 8)
 
-#define SCULL_IOCXQUANTUM _IOWR(SCULL_IOC_MAGIC, 9, int)
-#define SCULL_IOCXQSET _IOWR(SCULL_IOC_MAGIC, 10, int)
+#define GLOBALMEM_IOCXQUANTUM _IOWR(GLOBALMEM_IOC_MAGIC, 9, int)
+#define GLOBALMEM_IOCXQSET _IOWR(GLOBALMEM_IOC_MAGIC, 10, int)
 
-#define SCULL_IOCHQUANTUM _IO(SCULL_IOC_MAGIC, 11)
-#define SCULL_IOCHQSET _IO(SCULL_IOC_MAGIC, 12)
+#define GLOBALMEM_IOCHQUANTUM _IO(GLOBALMEM_IOC_MAGIC, 11)
+#define GLOBALMEM_IOCHQSET _IO(GLOBALMEM_IOC_MAGIC, 12)
 
-#define SCULL_IOC_MAXNR  14
-#define SCULL_QUANTUM 4000
-#define SCULL_QSET 1000
+#define GLOBALMEM_IOC_MAXNR  14
+#define GLOBALMEM_QUANTUM 4000
+#define GLOBALMEM_QSET 1000
 
-int scull_quantum = SCULL_QUANTUM;
-int scull_qset = SCULL_QSET;
+int globalmem_quantum = GLOBALMEM_QUANTUM;
+int globalmem_qset = GLOBALMEM_QSET;
+
 
 
 static int globalmem_major = GLOBALMEM_MAJOR;
@@ -112,16 +113,14 @@ int globalmem_release(struct inode *inode, struct file *filp)
 //设备文件控制
 static long globalmem_ioctl(/*struct inode *inodep, */struct file *filp, unsigned int cmd, unsigned long arg)
 {
-
-//    struct globalmem_dev *dev = filp->private_data;
     
     int err = 0;
     int tmp;
     int retval = 0;
 
-	if (_IOC_TYPE(cmd) != SCULL_IOC_MAGIC) 
+	if (_IOC_TYPE(cmd) != GLOBALMEM_IOC_MAGIC) 
 		return -ENOTTY;
-	if (_IOC_NR(cmd) > SCULL_IOC_MAXNR) 
+	if (_IOC_NR(cmd) > GLOBALMEM_IOC_MAXNR) 
 		return -ENOTTY;
 	/* 根据命令类型，检测参数空间是否可以访问 */
 	if (_IOC_DIR(cmd) & _IOC_READ)
@@ -134,46 +133,46 @@ static long globalmem_ioctl(/*struct inode *inodep, */struct file *filp, unsigne
 
     switch(cmd)
     {
-        case SCULL_IOCRESET:
-            scull_quantum = SCULL_QUANTUM;
-            scull_qset = SCULL_QSET;
+        case GLOBALMEM_IOCRESET:
+            globalmem_quantum = GLOBALMEM_QUANTUM;
+            globalmem_qset = GLOBALMEM_QSET;
             break;
 
-        case SCULL_IOCSQUANTUM:
-            if(!capable(CAP_SYS_ADMIN))
-             return -EPERM;
-            retval = __get_user(scull_quantum,(int __user *)arg);
-            break;
-
-        case SCULL_IOCTQUANTUM:
+        case GLOBALMEM_IOCSQUANTUM:
             if(!capable(CAP_SYS_ADMIN))
                 return -EPERM;
-            scull_quantum = arg;
+            retval = __get_user(globalmem_quantum,(int __user *)arg);
             break;
 
-        case SCULL_IOCGQUANTUM:
-            retval = __put_user(scull_quantum, (int __user *)arg);
-            break;
-
-        case SCULL_IOCQQUANTUM:
-            return scull_quantum;
-
-        case SCULL_IOCXQUANTUM:
+        case GLOBALMEM_IOCTQUANTUM:
             if(!capable(CAP_SYS_ADMIN))
                 return -EPERM;
-            tmp = scull_quantum;
-            retval = __get_user(scull_quantum,(int __user *)arg);
+            globalmem_quantum = arg;
+            break;
+
+        case GLOBALMEM_IOCGQUANTUM:
+            retval = __put_user(globalmem_quantum, (int __user *)arg);
+            break;
+
+        case GLOBALMEM_IOCQQUANTUM:
+            return globalmem_quantum;
+
+        case GLOBALMEM_IOCXQUANTUM:
+            if(!capable(CAP_SYS_ADMIN))
+                return -EPERM;
+            tmp = globalmem_quantum;
+            retval = __get_user(globalmem_quantum,(int __user *)arg);
             if (retval == 0)
             {
                 retval = __put_user(tmp,(int __user *)arg);
             }
             break;
         
-        case SCULL_IOCHQUANTUM:
+        case GLOBALMEM_IOCHQUANTUM:
             if(!capable(CAP_SYS_ADMIN))
                 return -EPERM;
-            tmp = scull_quantum;
-           scull_quantum = arg;
+            tmp = globalmem_quantum;
+           globalmem_quantum = arg;
             return tmp;
 
         default:
@@ -339,8 +338,8 @@ static const struct file_operations globalmem_fops =
 	.read = globalmem_read,
 	.write = globalmem_write,
 //	.ioctl = globalmem_ioctl,
-	.compat_ioctl = globalmem_ioctl,
-//	.unlocked_ioctl = globalmem_ioctl,
+//	.compat_ioctl = globalmem_ioctl,
+	.unlocked_ioctl = globalmem_ioctl,
 	.open = globalmem_open,
 	.release = globalmem_release,
 };
