@@ -1,0 +1,10 @@
+			REPORT
+    Today is Friday and  it is a sunny day.
+    Today I make a PPT file. And I find some of the 
+information about the Character Device Driver in the 
+books and on internet. When I do it I encounter some 
+of problems. For example,How do I organize the content 
+of each module, and how do I sort each module.At the 
+same time it is helpful for me to call what I learned 
+some time ago.
+
