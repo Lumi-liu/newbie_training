@@ -1,0 +1,9 @@
+			REPORT
+    Today is Monday and  it is a cloudy day.
+    Today I try to modify the program of Character 
+Device Driver with ioctl(). There is a small problem 
+with result. The application cannot operate normally. 
+It can run when the minor device number only is zero. 
+I do not know why the result likes this. After that I 
+also try to do the insertion sort algorithm and generate 
+N random numbers between 0 and 10000000.
