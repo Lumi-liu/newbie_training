@@ -1,0 +1,12 @@
+			REPORT
+    Today is Tuesday and it is a sunny day.
+    In the noon today, our group has a meeting. I 
+learned about proc and sys file system at the meeting. 
+It is a great help to understand linux file system later. 
+Today I try to write a program about insertion sort. I 
+try to add a file function that input data and output data 
+will be written to the file. The result is error as well 
+bus error(core dumped) and segmetation fault(core dumped). 
+It has not effectively solved why does it have such specific 
+error. I also search the relevant information on the internet. 
+But the information is too general.
