@@ -1,0 +1,13 @@
+			REPORT
+    Today is Wednesday and it is a sunny day.
+    Today I look about the problem that the minor number 
+encounter zero of tht character device driver. I try to 
+modify the program code slightly. A small problem is solved 
+which I am not find yesterday. But the application program 
+is still not normal run. After that I also see some program 
+codes about insertion sort algorithm. In the afternoon I try 
+to configure the Local Gerrit Server with the help of others. 
+And I download some files with android. Today I have a cold 
+and headache. I will go back earlier today. And I must buy 
+some medicine to eat and have a good rest at night. I hope 
+that I will be better tomorrow.
