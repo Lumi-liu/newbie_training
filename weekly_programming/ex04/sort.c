@@ -1,8 +1,28 @@
+/*=====================================
+Filename:
+    sort.c
+
+Copyright (C) 2006 Wistron
+All rights reserved.
+
+Description:
+    This is a simple insert sort algorithm.
+
+Author/Created Date:
+        Lumi-liu, Dec17'14
+
+Modification History:
+
+
+Note:
+
+
+======================================*/
+
 #include <stdio.h>
 #include <stdlib.h>
 
 //#define MAX 50
-
 
 
 void swap_int(int *a,int *b)
