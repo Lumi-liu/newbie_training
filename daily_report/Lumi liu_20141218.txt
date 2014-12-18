@@ -1,0 +1,8 @@
+			REPORT
+    Today is Thursday and it is a sunny day.
+    Today I watch the sort algorithm including bubble sort, 
+quick sort, selection sort and so on. I try to understand 
+the structure of the algorithm and logic structure. And I 
+compile the android file downloaded yesterday. But there is 
+a mistake about JDK. After that I configure the JDK. And in 
+the end they have solved with the help of others.
