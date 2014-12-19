@@ -88,7 +88,7 @@ void QuickSort(int a[],int Left,int Right)
 			else
 				break;
 		}
-		swap_int(&a[i],&a[Right-1]);
+//		swap_int(&a[i],&a[Right-1]);
 		QuickSort(a,Left,i);
 		QuickSort(a,i+1,Right);
 	}
