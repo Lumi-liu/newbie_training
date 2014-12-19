@@ -174,6 +174,7 @@ void QuickSort(int a[],int Left,int Right)
 {
 	int i;
 	int j;
+    int k;
 	int Center;
 	const int Cutoff = 3;
 	if (Left + Cutoff <= Right)
@@ -186,12 +187,12 @@ void QuickSort(int a[],int Left,int Right)
 			while(a[++i] < Center){;}//下标右移
 			while(a[--j] > Center){;}//下标左移
 			if (i < j)
-				swap_int(&a[i],&a[j]);
+                swap_int(&a[i],&a[j]);
 			else
 				break;
 		}
 		swap_int(&a[i],&a[Right-1]);
-		QuickSort(a,Left,i-1);  
+		QuickSort(a,Left,i-1);
 		QuickSort(a,i+1,Right);
 	}
 	else
@@ -283,7 +284,7 @@ int main (void)
     }
     fprintf(fp,"\n");
 	printf ("\n");
-    quick_sort (data4, 0, MAX - 1);
+    quick_sort (data4, 0, MAX-1);
     for (i = 0; i < MAX; i++)
     {
 		printf ("%2d ", data4[i]);
