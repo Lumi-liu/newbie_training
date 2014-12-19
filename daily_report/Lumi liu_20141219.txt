@@ -1,0 +1,11 @@
+			REPORT
+    Today is Friday and it is a cloudy day.
+    Yesterday I saw books about quick sort algorithm. There 
+are two lines of code in the book. I don't know why. And I 
+try to delete these two lines of code and it has done a little 
+changes. The program can run. It is available with a amount of 
+data. But a large of data is not. There is a error as well 
+'segmetation fault(core dumped)'. At first I want to ask others, 
+but I don't. Finally I solve it by myself. And I am very happy. 
+Finally I search some datas about bitmap sorting algorithm and 
+prepare for the next exercise.
