@@ -1,0 +1,14 @@
+			REPORT
+    Today is Monday and it is a sunny day.
+    Today I do two exercises. The one of it is a 
+concurrency control and the other one is blocking or 
+unblock I/O in Linux device driver. I start to view 
+the related books and record some important concepts 
+and matters needing attention inside it. After that I 
+try to compile codes and debug it. And I verify it. I 
+find the sixth exercise is not this when I am going to 
+look at the polling operation with linux device driver. 
+But today I have no time to look at the sixth exercise 
+with the timer,delay or delay operation. I just look a 
+little related knowledge about it. The codes are not
+written. I will do it tomorrow.
