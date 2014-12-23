@@ -1,0 +1,9 @@
+			REPORT
+    Today is Tuesday and it is a sunny day.
+    Today I read the book named Linux Device Driver of 
+the timer and the delaying operation. I have a little 
+unsuspectingly after I read it. There are some places 
+that I do not understand. At that time I also try to 
+search related information on the internet. And I read 
+the part of codes and try to link up with the points of 
+knowledge in the book.
