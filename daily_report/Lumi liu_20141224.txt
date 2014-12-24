@@ -1,0 +1,11 @@
+			REPORT
+    Today is Wednesday and it is a sunny day.
+    Today I read the book named Linux Device Driver of the 
+timer and the delaying operation. There are some places that 
+I do not understand. At that time I also try to search related 
+information on the internet. And I read the part of codes and 
+try to link up with the points of knowledge in the book. Finally 
+I try to write the codes about it. But there is a mistake with 
+"error: implicit declaration of function ‘create_proc_read_entry’".
+I also try to search related information about the error. But I 
+have no way to solve it now.
