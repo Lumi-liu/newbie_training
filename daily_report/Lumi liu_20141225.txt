@@ -1,0 +1,10 @@
+			REPORT
+    Today is Thursday and it is a sunny day.
+    Today I revise the PPT file. And I add some contents 
+about ioctl() and the information of the program verification. 
+At that time I study the program codes and do exercises again. 
+Then I edit screenshot and save a picture. I will make a report 
+about the character device driver and that I have learned in 
+this period of time next week. I also reviewe some knowledge 
+about it. I will try to be able to understand a little more 
+about it so that I can explain it to others syllabify.
