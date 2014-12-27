@@ -1,0 +1,13 @@
+			REPORT
+    Today is Saturday and it is a sunny day.
+    Today I revise the sixth practice about timer after I 
+finished the PPT file. I try to download a kernel with 2.6 
+version and compile it. But I encounter many problems with 
+that how to compile the low version of the kernel by high 
+version of the kernel. I also search for related information 
+on the Internet. But I still do not resolve it. Finally I 
+solve this problem with the help of my colleagues. So I restart 
+my computer and choose the kernel version after the Low version 
+kernel of the kernel is compiled. Finally the driver is compiled 
+with no errors and warnings. After that I check the related 
+information and verify the module with steps of the book.
