@@ -1,0 +1,12 @@
+			REPORT
+    Today is Monday and it is a sunny day.
+    In theory, the pointer of the kernel space can use 
+directly the pointer of user space. And it can also use 
+the memcpy().In fact, on the architecture of no MMU, 
+copy_form_user() is  implemed by using of memcpy(). But 
+for the majority of MMU platform, the pointer of user 
+space was passed in the virtual address space of the 
+virtual address space. It points to the likely haven't 
+really mapped to physical page. It Will lead to abnormal 
+missing pages transparent by the kernel to be repaired. 
+The directive will continue to run as if what have happened.
