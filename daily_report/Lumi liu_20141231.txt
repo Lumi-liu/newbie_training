@@ -1,0 +1,13 @@
+			REPORT
+    Today is Wednesday and it is a cloudy day.
+    Today I make a report at the meeting about the character 
+device driver that I have learned in this period of time. I 
+also reviewe some knowledge about it. I try to explain it to 
+others syllabify. A question that the differece between 
+compat_ioctl() and unlocked_ioctl() is raised at the meeting. 
+I have seen a similar problem on the internet. But I was not 
+too much understanding of the relevant problems. After that 
+I try to search relevant information on internet about it. 
+The afternoon I try my best to solve the problem left yesterday. 
+But I have not. Finally the problem is solved with the help 
+of my colleagues.
