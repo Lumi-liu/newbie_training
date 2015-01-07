@@ -1,0 +1,14 @@
+			REPORT
+    Today is Wednesday and it is a cloudy day.
+    Today I solve some problems left two days ago. The 
+TC70-release has not been compiled through. There were a lot 
+of mistakes about it. Then I asked my colleagues to help. But 
+there were many other mistakes with 'testkey.x509.pem' about 
+it after they has carried on the system configuration. I also 
+try to do it many times. In addition to my computer run slowly 
+with compiling about TC70-release. Sometimes the computer was 
+dead. Finally I had to download the TC70-THD version and compile 
+it. THen I also try to search some blogs on internet about how 
+to compile the driver under Android system. I will try to compile
+the TC70-release when I am off duty today and see it tomorrow if 
+there is a mistake.
