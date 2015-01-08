@@ -1,0 +1,10 @@
+			REPORT
+    Today is Thursday and it is a sunny day.
+    At noon I look at the result of TC70-release compiled 
+yesterday. After that I read the knowledge about race and 
+concurrency. The afternoon I think I will start to make PPT 
+file. But something changes my plans. I receive an email. 
+Let me fill in the new assessment and report on the work. 
+And I must submit them before January 13th. I have no time 
+to write it. In addition to I will have a lot of classes 
+with the new training next week.
